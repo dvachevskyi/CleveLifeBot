@@ -1,7 +1,12 @@
-from vkauth import *
+# Да, гавно код, писался на скорую руку
 import requests
 import json
 
+from vkauth import *
+
+
+
+print("\nClever Life Bot v1.01 by dvachevskyi\n### https://github.com/dvachevskyi/CleveLifeBot ###\n\n\n\n")
 main_acc  = input('Enter the data from the main account look as login:password without 2FA enabled: ').split(':')
 acc = input('Enter the data from the twink account: ').split(':')
 
